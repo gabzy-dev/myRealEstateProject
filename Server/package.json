@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "postinstall": "prisma generate",
-    "build":"yarn run build"
+    "build": "yarn run build"
   },
   "dependencies": {
     "@prisma/client": "^5.3.1",
